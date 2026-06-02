@@ -50,9 +50,8 @@ def load_artifacts():
     scaler = joblib.load(MODEL_DIR / "scaler.pkl")
     feature_order: list[str] = json.loads((MODEL_DIR / "feature_order.json").read_text())["feature_names"]
     feature_meanings: dict[str, str] = json.loads((MODEL_DIR / "feature_meanings.json").read_text())
-    metadata: dict = json.loads((MODEL_DIR / "metadata.json").read_text())
     logger.info("Artefactos cargados correctamente.")
-    return model, scaler, feature_order, feature_meanings, metadata
+    return model, scaler, feature_order, feature_meanings
 
 
 def preprocess(raw: dict, scaler, feature_order: list[str]) -> np.ndarray:
@@ -107,13 +106,10 @@ st.title("🎓 Predictor de Abandono Estudiantil")
 st.caption("Ingresá los datos del estudiante para estimar el riesgo de abandono.")
 
 try:
-    model, scaler, feature_order, meanings, metadata = load_artifacts()
+    model, scaler, feature_order, meanings = load_artifacts()
 except Exception as e:
     st.error(f"Error cargando artefactos del modelo: {e}")
     st.stop()
-
-with st.expander("ℹ️ Información del modelo"):
-    st.json(metadata)
 
 st.divider()
 

@@ -1,0 +1,6 @@
+[theme]
+primaryColor        = "#1A5276"   # azul universitario
+backgroundColor     = "#FFFFFF"
+secondaryBackgroundColor = "#EAF2FB"
+textColor           = "#1B2631"
+font                = "sans serif"

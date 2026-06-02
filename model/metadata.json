@@ -1,0 +1,16 @@
+{
+  "model_name": "XGBoost Student Dropout Predictor",
+  "version": "1.0.0",
+  "algorithm": "XGBoost (Optimized)",
+  "num_features": 20,
+  "model_file": "xgboost_optimized_model.pkl",
+  "scaler_file": "scaler.pkl",
+  "feature_order_file": "feature_order.json",
+  "risk_thresholds": {
+    "low": [0.0, 0.39],
+    "medium": [0.40, 0.69],
+    "high": [0.70, 1.0]
+  },
+  "description": "Modelo XGBoost optimizado para predicción de abandono estudiantil, entrenado sobre el dataset OULAD (Open University Learning Analytics Dataset).",
+  "target": "dropout (1 = abandona, 0 = no abandona)"
+}

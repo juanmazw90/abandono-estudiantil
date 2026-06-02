@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "days_active_vle",
+    "num_assessments",
+    "code_module_GGG",
+    "sum_weighted_assessment_score",
+    "avg_score",
+    "code_module_EEE",
+    "total_clicks_vle",
+    "code_presentation_2014J",
+    "max_score",
+    "vle_activity_count_subpage",
+    "code_module_CCC",
+    "vle_activity_count_homepage",
+    "code_module_DDD",
+    "num_vle_interactions",
+    "studied_credits",
+    "region_Wales",
+    "vle_activity_count_externalquiz",
+    "imd_band_10-20",
+    "avg_clicks_per_interaction_vle",
+    "num_of_prev_attempts"
+  ]
+}

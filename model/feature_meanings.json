@@ -1,0 +1,22 @@
+{
+  "days_active_vle": "Número de días que el estudiante estuvo activo en el Entorno Virtual de Aprendizaje (VLE).",
+  "num_assessments": "Número total de evaluaciones a las que el estudiante se presentó.",
+  "code_module_GGG": "Indica si el estudiante está inscrito en el módulo 'GGG' (1 si sí, 0 si no).",
+  "sum_weighted_assessment_score": "Suma de las puntuaciones de las evaluaciones del estudiante, ponderadas por su peso.",
+  "avg_score": "Puntuación media de todas las evaluaciones del estudiante.",
+  "code_module_EEE": "Indica si el estudiante está inscrito en el módulo 'EEE' (1 si sí, 0 si no).",
+  "total_clicks_vle": "Número total de clics registrados por el estudiante en el VLE.",
+  "code_presentation_2014J": "Indica si el estudiante está en la presentación del curso '2014J' (1 si sí, 0 si no).",
+  "max_score": "Puntuación máxima obtenida por el estudiante en una evaluación.",
+  "vle_activity_count_subpage": "Número de interacciones con actividades tipo 'subpage' en el VLE.",
+  "code_module_CCC": "Indica si el estudiante está inscrito en el módulo 'CCC' (1 si sí, 0 si no).",
+  "vle_activity_count_homepage": "Número de interacciones con la página de inicio (homepage) del VLE.",
+  "code_module_DDD": "Indica si el estudiante está inscrito en el módulo 'DDD' (1 si sí, 0 si no).",
+  "num_vle_interactions": "Número total de interacciones registradas en el VLE.",
+  "studied_credits": "Número de créditos que el estudiante está estudiando.",
+  "region_Wales": "Indica si el estudiante reside en la región de Gales (1 si sí, 0 si no).",
+  "vle_activity_count_externalquiz": "Número de interacciones con actividades tipo 'externalquiz' en el VLE.",
+  "imd_band_10-20": "Indica si el estudiante pertenece a la banda de Índice de Privación Múltiple (IMD) del 10-20% más desfavorecido (1 si sí, 0 si no).",
+  "avg_clicks_per_interaction_vle": "Número promedio de clics por interacción del estudiante en el VLE.",
+  "num_of_prev_attempts": "Número de intentos previos del estudiante para el mismo módulo/presentación."
+}
